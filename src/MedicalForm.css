@@ -1,0 +1,71 @@
+/* Full-screen container with centered form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Soft gradient */
+    padding: 20px;
+}
+
+/* Stylish and perfectly sized form */
+.medical-form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Adjusted size for a perfect fit */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.medical-form:hover {
+    transform: scale(1.02);
+}
+
+/* Centered title with better spacing */
+.medical-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input fields and textarea styling */
+.medical-form input,
+.medical-form select,
+.medical-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+.medical-form input:focus,
+.medical-form select:focus,
+.medical-form textarea:focus {
+    border-color: #ff758c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 117, 140, 0.5);
+}
+
+/* Stylish Submit Button */
+.medical-form button {
+    background: #ff758c;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.medical-form button:hover {
+    background: #e84a5f;
+}
